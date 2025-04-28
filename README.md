@@ -38,6 +38,14 @@ As funções implementadas até o momento incluem, mas não se limitam a:
 
 Este repositório contém código **C** puro. O repositório já inclui um **Makefile** para facilitar a compilação das funções.
 
+---
+
+## Licença 📜
+
+Este projeto está licenciado sob os termos da [Licença MIT](./LICENSE).
+
+---
+
 ### Para compilar o código:
 
 ```bash
