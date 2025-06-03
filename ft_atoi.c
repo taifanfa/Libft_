@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/28 12:40:40 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/04/28 17:36:34 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/05/12 23:22:50 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ int	ft_atoi(const char *nptr)
 
 // int	main(void)
 // {
-// 	const char	*s1 = "   +-597abcd";
+// 	const char	*s1 = "  +-597abcd";
 // 	int			ft_result;
 // 	int			lib_result;
 

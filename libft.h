@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/22 22:19:03 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/04/28 18:53:24 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/06/03 20:49:09 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -173,14 +173,14 @@ ATTRIBUTES
 	Thread safety - MT-Safe locale.
 */
 
-int		ft_strncmp(const char s1[.n], const char s2[.n], size_t n);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
 
 /*
 NAME
 	ft_strncmp - compare two strings.
 
 SYNOPSIS
-	int ft_strncmp(const char s1[.n], const char s2[.n], size_t n);
+	int	ft_strncmp(const char *s1, const char *s2, size_t n);
 
 DESCRIPTION
 	The ft_strncmp() function compares the two strings s1 and s2.  The locale is 
@@ -297,5 +297,23 @@ RETURN VALUE
 ATTRIBUTES
 	Thread safety - MT-Safe.
 */
+
+void	ft_bzero(void *s, size_t n);
+
+void	*ft_calloc(size_t count, size_t size);
+
+void	*ft_memchr(const void *s, int c, size_t n);
+
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
+
+void	*ft_memcpy(void *dst, const void *src, size_t n);
+
+void	*ft_memmove(void *dst, const void *src, size_t n);
+
+void	*ft_memset(void *s, int c, size_t n);
+
+char	*ft_strdup(const char *s1);
+
+char	*ft_strchr(const char *s, int c);
 
 #endif
